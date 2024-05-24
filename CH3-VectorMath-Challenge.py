@@ -14,7 +14,7 @@ import numpy as np
 
 vec_a = [1, 2, 3, 5]
 vec_b = [8, 13, 21, 34]
-def vector_multiplication(vec_a, vec_b):
+def vector_multiplication(vec_a, vec_b): # multiplying two vectors
     assert len(vec_a) == len(vec_b)
     output = 0
 
@@ -22,7 +22,7 @@ def vector_multiplication(vec_a, vec_b):
         output += vec_a[i] * vec_b[i] # the dot product of vec_a and b
     return output
 
-def vector_addition(vec_a, vec_b):
+def vector_addition(vec_a, vec_b): # adding two vectors
     assert len(vec_a) == len(vec_b)
     vec_c = [] # resultant vector to store added components of a and b
 
@@ -30,7 +30,7 @@ def vector_addition(vec_a, vec_b):
         vec_c.append(vec_a[i] + vec_b[i])
     return vec_c
 
-def vector_sum(vec_a):
+def vector_sum(vec_a): # func. that sums all compononets of a vector
     if(len(vec_a) > 0):
         result = 0
         for i in range(len(vec_a)):
@@ -38,7 +38,7 @@ def vector_sum(vec_a):
         return result
     print("vector a is empty")
 
-def vector_average(vec_a):
+def vector_average(vec_a): # function that takes the average of a single vector
     if(len(vec_a) > 0):
         result = 0
         for i in range(len(vec_a)):
