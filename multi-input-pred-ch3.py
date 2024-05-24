@@ -26,6 +26,7 @@ toes = [8.5, 9.5, 9.9, 9.0] #number of players toes
 wl_rec = [0.65, 0.8, 0.8, 0.9] #win loss record percent
 nfans = [1.2, 1.3, 0.5, 1.0] # number of fans in the millions
 
+# our input takes index 0 from each component of our data set a
 input = [toes[0], wl_rec[0], nfans[0]]
 
 pred = neural_network(input, weights)
