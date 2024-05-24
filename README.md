@@ -1,4 +1,4 @@
-independently learning neural networks by utilizing 
+Independently learning neural networks by utilizing 
 Andrew W. Trask's Grokking Deep Learning book.
 
 Here you will see me update this repository with projects/problems from this book 
