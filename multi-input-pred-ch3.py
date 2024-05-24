@@ -15,6 +15,7 @@ def w_sum(a, b):
     for i in range(len(a)):
         output += a[i] * b[i] #dot product of vector a and b
     return output
+
 def neural_network(input, weights):
     pred = w_sum(input, weights)
     return pred
