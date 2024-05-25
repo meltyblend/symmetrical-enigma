@@ -14,6 +14,29 @@ import numpy as np
 
 vec_a = [1, 2, 3, 5]
 vec_b = [8, 13, 21, 34]
+
+# dot product notes in terms of neural network applications
+
+# dot products or weighted sums are important because they give you the similarities between two vectors
+# think orthogonality, linear independence, or used as a tool to measure
+# how closely two vectors align to a specific point
+
+#dot products can also be related to logical properties like AND
+# example
+# a = [ 0, 1, 0, 1]
+# b = [ 1, 0, 1, 0]
+# a ^ b logically = 0 so it fails the AND test
+
+# there is also partial ANDing and negative weights
+# ex : d = [.5, 0,.5, 0]
+#      e = [-1, 1, 0, 0]
+# negative weights insinuate a logical NOT column one will then be NOT col 1
+
+# neural networks give higher scores to the inputs based on how similar they are to the weights
+# Note: You cannot shuffle weights they have specific positions that they need to be in
+
+
+
 def vector_multiplication(vec_a, vec_b): # multiplying two vectors
     assert len(vec_a) == len(vec_b)
     output = 0

@@ -31,3 +31,11 @@ input = [toes[0], wl_rec[0], nfans[0]]
 
 pred = neural_network(input, weights)
 print(pred)
+
+
+#note to future self when using numpy use np.array as that built in function is faster
+# and more compact than regular python lists in terms of memory/data storage
+# its a good way to optimize your code slightly
+
+# there is also a function to use dot products that is more efficient than creating your own
+# dot func.  to use it it would be   "name".dot("input")
